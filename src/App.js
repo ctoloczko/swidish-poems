@@ -5,11 +5,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h2>Skriv en svensk dikt med AI</h2>
-        <p>Fyll i några ord och låt AI skapa en vacker dikt åt dig</p>
+        <h1>Svenska PoemGenerator</h1>
+        <h4>Skriv en svensk dikt med AI</h4>
       </header>
 
       <UserForm />
+
+      <footer>Made with ❤️ by Celina</footer>
     </div>
   );
 }
