@@ -4,19 +4,29 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(5, 4, 4);
   text-align: center;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-size: 45px;
 }
 
 h2 {
   text-align: center;
+  font-weight: 300;
+}
+
+h4 {
+  margin-top: 10px;
+  font-weight: 300;
 }
 
 .Options {
@@ -35,4 +45,10 @@ input {
 
 select {
   padding: 4px;
+}
+
+footer {
+  text-align: center;
+  margin: 25px;
+  font-size: 12px;
 }
