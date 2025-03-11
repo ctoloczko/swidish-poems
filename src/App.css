@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  max-width: 800px;
+  margin: 30px auto;
 }
 
 .App-header {
@@ -11,4 +12,27 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.Options {
+  padding: 5px;
+}
+
+button {
+  padding: 10px;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+input {
+  padding: 4px;
+  margin-left: 10px;
+}
+
+select {
+  padding: 4px;
 }
