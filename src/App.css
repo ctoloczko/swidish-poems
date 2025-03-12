@@ -1,6 +1,6 @@
 .App {
-  max-width: 800px;
   margin: 30px auto;
+  max-width: 100%;
 }
 
 .App-header {
@@ -9,9 +9,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: rgb(5, 4, 4);
   text-align: center;
+  background-image: url(banner.jpg);
+  width: 100%;
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  padding: 70px 0;
 }
 
 h1 {
