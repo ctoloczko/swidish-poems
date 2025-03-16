@@ -3,7 +3,7 @@ import "./App.css";
 
 export default function UserForm() {
   return (
-    <div>
+    <div className="UserInput">
       <h2>Fyll i några ord och låt AI skapa en vacker dikt åt dig</h2>
       <div className="Options">
         <label>
@@ -11,10 +11,11 @@ export default function UserForm() {
           <input type="text" name="myInput" />
         </label>
       </div>
+      <p></p>
       <div className="Options">
+        <label>Diktstil </label>
         <select>
           {" "}
-          Diktstil
           <option value="-">-</option>
           <option value="haiku">Haiku</option>
           <option value="rimmande">Rimmande</option>
@@ -23,9 +24,9 @@ export default function UserForm() {
         </select>
       </div>
       <div className="Options">
+        <label>Stämning</label>{" "}
         <select>
           {" "}
-          Stämning
           <option value="-">-</option>
           <option value="romantisk">Romantisk</option>
           <option value="melankolisk">Melankolisk</option>
@@ -35,9 +36,9 @@ export default function UserForm() {
       </div>
 
       <div className="Options">
+        <label>Längd</label>{" "}
         <select>
           {" "}
-          Längd
           <option value="-">-</option>
           <option value="kort">Kort</option>
           <option value="medel">Medel</option>
